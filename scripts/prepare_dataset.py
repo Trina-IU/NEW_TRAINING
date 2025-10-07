@@ -16,10 +16,14 @@ import csv
 import os
 import random
 import shutil
+import sys
 from collections import defaultdict
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, List, Sequence
+
+if __package__ is None or __package__ == "":
+    sys.path.append(str(Path(__file__).resolve().parent.parent))
 
 import numpy as np
 from PIL import Image, ImageOps

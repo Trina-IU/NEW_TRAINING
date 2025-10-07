@@ -31,6 +31,9 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, List, Optional, Sequence, Tuple
 
+if __package__ is None or __package__ == "":
+    sys.path.append(str(Path(__file__).resolve().parent.parent))
+
 import matplotlib.pyplot as plt
 import numpy as np
 import tensorflow as tf
