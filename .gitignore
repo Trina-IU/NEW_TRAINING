@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.env/
+
+# Installer / wheel files
+pip-wheel-metadata/
+*.egg-info/
+*.egg
+
+# Distribution / packaging
+build/
+dist/
+.eggs/
+
+# Pytest
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+
+# IPython / Jupyter
+.ipynb_checkpoints
+
+# macOS
+.DS_Store
+
+# VS Code / JetBrains
+.vscode/
+.idea/
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+tmp/
+*.bak
+
+# Data and large files
+# If you prefer to keep Handwriting_Dataset in the repo, remove the following line.
+# Handwriting_Dataset/
+
+# Training outputs
+models/
+*.tflite
+labels.txt
+metrics.json
+history.json
+training_curves.png
+
+# TensorFlow SavedModel directories
+saved_model/
+saved_model.pb
+variables/
+
+# System files
+Thumbs.db
+
+# Optional: environment config
+.env
+
+# Windows
+*.lnk
